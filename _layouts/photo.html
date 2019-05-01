@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  {% include head.html %}
+
+  <!-- Photo stuff -->
+
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/photo/css/main.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/photo/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/photo/js/jquery.uniform/uniform.default.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/photo/js/jquery.fluidbox/fluidbox.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/photo/js/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/photo/js/photo-swipe/photoswipe.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/photo/js/photo-swipe/default-skin/default-skin.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/photo/js/jquery.magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/photo/js/slippry/slippry.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/photo/css/style.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/photo/css/768.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/photo/css/992.css">
+
+    <!-- INITIAL SCRIPTS -->
+    <script src="{{ site.github.url }}/assets/photo/js/jquery-1.11.2.min.js"></script>
+    <script src="{{ site.github.url }}/assets/photo/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="{{ site.github.url }}/assets/photo/js/modernizr.min.js"></script>
+  <!-- Photo stuff END -->
+</head>
+<body>
+
+  <div class="container">
+    {% include header.html %}
+  </div>
+
+  <div id="page" class="hfeed site">
+  <div id="main" class="site-main">
+    <div id="primary" class="content-area">
+      <div id="content" class="site-content" role="main">
+      {{ content }}
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container">
+    {% include footer.html %}
+  </div>
+
+  {% include scripts.html %}
+
+</body>
+</html>
