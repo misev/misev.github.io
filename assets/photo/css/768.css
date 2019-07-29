@@ -142,7 +142,7 @@
 		margin-top: -20px;
 		}
     .gallery-grid .masonry-item {
-		padding: 20px; width: 50%; float: left;
+		padding: 20px; float: left;
 		}
 	.gallery-grid figure h2 {
 		font-size: 2.0em;
@@ -373,4 +373,12 @@
 		font-size: 24px; width: 52px; line-height: 52px;
 		}
 	
+}
+
+@media screen and (min-width: 900px) { 
+	/* GALLERY */
+    .gallery-grid .masonry-item {
+		width: 50%;
+		}
+    
 }

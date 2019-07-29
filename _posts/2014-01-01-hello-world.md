@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "First post"
-author: "Dimitar Misev"
 categories: journal
 tags: [personal]
 image: 
 ---
-
+<!-- post body start -->
 Hello World!
+<!-- post body end -->

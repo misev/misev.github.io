@@ -106,7 +106,7 @@
 
 
 /* DESKTOPS MEDIUM */
-@media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1300px) { 
 	
 	 /* increase column gutter on large screens */
 	 .row {
@@ -162,7 +162,7 @@
 	
 	/* GALLERY */
     .gallery-grid .masonry-item {
-		width: 25%;
+		width: 33%;
 		}
 		
 	/* INTRO */

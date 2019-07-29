@@ -14,8 +14,7 @@ title: Publications
 
 - Peter Baumann, Eric Hirschorn, Joan Masó-Pau, Vlad Merticariu, Dimitar Misev. **All in One: Encoding spatio-temporal big data in XML, JSON, and RDF without information loss**. *BigData 2017*, 3406-3415.
 - Veranika Liaukevich, Dimitar Misev, Peter Baumann, Vlad Merticariu. **Location and Processing Aware Datacube Caching**. *SSDBM 2017*, 34:1-34:6.
-- P. Baumann, A.P. Rossi, B. Bell, O. Clements, B. Evans, H. Hoenig, P. Hogan, G.1 Kakaletris, P. Koltsida, S.
-Mantovani, R. Marco Figuera, V. Merticariu, D. Misev, B. Pham Huu, S. Siemen, J. Wagemann. **Fostering Cross-Disciplinary Earth Science Through Datacube Analytics**. *Earth Observation Open Science and Innovation - Changing the World One Pixel at a Time, International Space Science Institute (ISSI), 2017*.
+- P. Baumann, A.P. Rossi, B. Bell, O. Clements, B. Evans, H. Hoenig, P. Hogan, G.1 Kakaletris, P. Koltsida, S. Mantovani, R. Marco Figuera, V. Merticariu, D. Misev, B. Pham Huu, S. Siemen, J. Wagemann. **Fostering Cross-Disciplinary Earth Science Through Datacube Analytics**. *Earth Observation Open Science and Innovation - Changing the World One Pixel at a Time, International Space Science Institute (ISSI), 2017*.
 
 #### 2016
 

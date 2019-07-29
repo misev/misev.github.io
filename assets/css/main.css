@@ -83,6 +83,9 @@ hr {
   margin-left: auto;
   margin-right: auto;
   width: 615px;
+  /* Maintain same content position whether scrollbar is shown or not
+     (https://stackoverflow.com/a/30293718) */
+  padding-left: calc(100vw - 100%);
 }
 
 /*48em*/
