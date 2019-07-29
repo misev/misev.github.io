@@ -102,21 +102,25 @@ hr {
 
 .masthead {
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  margin-bottom: 4rem;
+  /* padding-bottom: 0.5rem; */
+  margin-bottom: 2rem;
   font-family: "Quattrocento Sans", sans-serif;
 }
-
 .masthead a:hover {
   color:black;
 }
-
+.masthead-title {
+  display: flex;
+  justify-content: space-between;
+}
 .masthead-title a {
   font-size: 2rem;
   text-decoration: none;
   color: #505050;
 }
-
+.masthead-title > a {
+  line-height: 1.1em;
+}
 .masthead-subtitle {
   color: #999;
 }
@@ -144,13 +148,14 @@ hr {
 .post-container {
   margin-bottom: 4rem;
 }
-
 .posts {
   margin-bottom: 5rem;
   padding: 0px;
   list-style: none;
 }
-
+.posts > h2 > a {
+  text-decoration: none;
+}
 .post-date {
   display: block;
   margin-top:3px;
@@ -159,7 +164,6 @@ hr {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size:0.8rem;
 }
-
 @media (max-width: 30rem) {
   .posts h1 {
     font-size: 1.5rem;
@@ -169,12 +173,10 @@ hr {
 .related {
   padding-bottom: 2rem;
 }
-
 .related-posts {
   padding-left: 0px;
   list-style: none;
 }
-
 .related-posts a {
   text-decoration: none;
 }
@@ -219,13 +221,11 @@ hr {
   text-align: center;
   margin: 2rem;
 }
-
 .footer a {
   color: #999;
   padding: 10px;
   text-decoration: none;
 }
-
 .footer a:hover {
   color: #333;
 }
@@ -235,24 +235,28 @@ hr {
 */
 
 .menu {
-  padding-top: 0.5rem;
-  display: block;
+  max-width: 9em;
+  position: relative;
+  top: -0.5em;
+  right: -2em;
 }
-
 .menu-content {
-  float: left;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-
 .menu-content a {
   color: #999;
   font-size: 1rem;
   padding-right: 10px;
 }
+.menu-content .active-page {
+  color: #505050;
+}
 
 .social-icons {
   float: right;
 }
-
 .social-icons a {
   color: #999;
   font-size: 1rem;

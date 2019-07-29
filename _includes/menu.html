@@ -1,7 +1,12 @@
 <div class="menu">
           <nav class="menu-content">
             {%- for item in site.data.settings.menu %}
+            {%-   assign title = page.title | downcase %}
+            {%-   if page.title == item.name %}
+            <a href="{{ site.github.url }}/{{ item.path }}/{{ item.url }}" class="active-page">{{ item.name }}</a>
+            {%-   else %}
             <a href="{{ site.github.url }}/{{ item.path }}/{{ item.url }}">{{ item.name }}</a>
+            {%-   endif %}
             {%- endfor %}
           </nav>
         </div>
