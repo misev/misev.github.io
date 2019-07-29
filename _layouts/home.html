@@ -10,7 +10,7 @@ title: Home
   </h2>
   {% if post.image %}
   <div class="thumbnail-container">
-    <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+    <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/images/{{ post.image }}"></a>
   </div>
   {% endif %}
   <p>
@@ -22,15 +22,15 @@ title: Home
 
 <!-- Pagination links -->
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
-  {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
-  {% endif %}
-
-  {% if paginator.previous_page %}
+  {%- if paginator.previous_page %}
     <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
-  {% else %}
+  {%- else %}
     <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
-  {% endif %}
+  {%- endif %}
+
+  {%- if paginator.next_page %}
+    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
+  {%- else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
+  {%- endif %}
 </div>
