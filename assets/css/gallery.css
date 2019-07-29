@@ -1,6 +1,10 @@
+/* .container {
+  border: 1px solid;
+} */
 .layout-full {
   display: flex;
   justify-content: center;
+  /* border: 1px solid; */
 }
 
 /* GALLERY */
@@ -77,4 +81,22 @@
   padding: 28% 0 10px 0;
   margin: 0;
   color: white;
+}
+
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1300px;
+}
+.photo-gallery > a {
+  padding: 10px 5px;
+}
+
+.gallery-nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
 }

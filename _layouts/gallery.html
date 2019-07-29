@@ -8,30 +8,25 @@ layout: photo
       <h1 class="entry-title">{{ page.title }}</h1>
     </header>
 
-    <div class="media-grid-wrap">
-
-      <div class="pw-gallery pw-collage pw-collage-loading load-one-by-one"
+    <div class="layout-full">
+      <div class="pw-gallery photo-gallery load-one-by-one"
            data-gallery-style="minimal" data-share="false" data-fullscreen="true"
            data-bg-opacity="0.95" data-row-height="250" data-effect="effect-4">
 
-        {{ content }}
+{{ content }}
 
       </div>
-
     </div>
 
-    <nav class="nav-single row">
-
-      <div class="nav-previous col-xs-6">
+    <nav class="gallery-nav">
+      <div class="nav-previous">
         <h4>PREVIOUS</h4>
         <a href="/gallery/{{ page.prev }}.html" rel="prev"><span class="meta-nav">←</span> {{ page.prev | upcase }}</a>
       </div>
-
-      <div class="nav-next col-xs-6">
+      <div class="nav-next">
         <h4>NEXT</h4>
         <a href="/gallery/{{ page.next }}.html" rel="next">{{ page.next | upcase }} <span class="meta-nav">→</span></a>
       </div>
-
     </nav>
 
   </div>

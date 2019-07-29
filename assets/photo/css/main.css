@@ -3233,6 +3233,11 @@ img+.mejs-audio {
   padding: 10px;
   padding-top: 0;
   font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1300px;
 }
 
 body:not(.single-portfolio) .pw-collage {
