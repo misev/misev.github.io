@@ -69,7 +69,7 @@ hr {
 .container {
   /* center contents */
   margin-left: auto; margin-right: auto;
-  width: 700px;
+  width: 740px;
   /* Maintain same content position whether scrollbar is shown or not
      (https://stackoverflow.com/a/30293718) */
   padding-left: calc(100vw - 100%);
@@ -306,4 +306,18 @@ th, td {
 }
 .fa-rss-square:hover {
 	color: #ff6600;
+}
+
+
+/*
+  Posts
+*/
+
+.drop-cap:first-letter {
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 700;
+  float: left;
+  padding-right: 3px;
+  margin-bottom: -6px;
 }
