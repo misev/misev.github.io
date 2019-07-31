@@ -1,10 +1,6 @@
-/* .container {
-  border: 1px solid;
-} */
 .layout-full {
   display: flex;
   justify-content: center;
-  /* border: 1px solid; */
 }
 
 /* GALLERY */
@@ -99,4 +95,9 @@
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
+}
+
+.entry-header {
+  text-align: center;
+  margin-bottom: 1.4em;
 }
