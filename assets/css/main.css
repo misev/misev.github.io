@@ -11,6 +11,7 @@
     Code
     Tables
     Social media icons
+    Gallery
 */
 
 /*
@@ -320,4 +321,86 @@ th, td {
   float: left;
   padding-right: 3px;
   margin-bottom: -6px;
+}
+
+
+
+/* GALLERY 
+ *
+ * Styles the Photography page, which shows an image for each category.
+ * The images have a horizontal move effect on hover.
+ */
+
+ .gallery-grid {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1500px;
+}
+.gallery-grid .masonry-item {
+  padding-bottom: 0px;
+  margin-right: -20px;
+  margin-left: -20px;
+  position: relative;
+  width: 400px;
+}
+.gallery-grid figure {
+  position: relative;
+  overflow: hidden;
+  background: #111;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 247px;
+  /* max-width: 400px; */
+}
+.gallery-grid figure img {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+  max-width: none;
+  width: calc(100% + 50px);
+  transition: opacity 0.35s, transform 0.35s;
+  transform: translate3d(-50px, 0, 0);
+}
+.gallery-grid figure:hover img {
+  opacity: 0.5;
+  transform: translate3d(0, 0, 0);
+}
+.gallery-grid figure figcaption {
+  padding: 2.4em;
+  color: #fff;
+  backface-visibility: hidden;
+  text-align: left;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.gallery-grid figure figcaption,
+.gallery-grid a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.gallery-grid figure figcaption:before,
+.gallery-grid figure figcaption:after {
+  pointer-events: none;
+}
+.gallery-grid a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  background: rgba(255, 255, 255, 0);
+}
+.gallery-grid figure h2 {
+  letter-spacing: -1px;
+  font-size: 1.5em;
+  font-weight: 900;
+  padding: 28% 0 10px 0;
+  margin: 0;
+  color: white;
 }
