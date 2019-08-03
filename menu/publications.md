@@ -3,16 +3,22 @@ layout: page
 title: Publications
 ---
 
+#### 2019
+
+- ISO/IEC JTC 1/SC 32. [**ISO/IEC 9075-15:2019: Information technology database languages &mdash; SQL &mdash; Part 15: Multi-dimensional arrays (SQL/MDA)**](https://www.iso.org/standard/67382.html).
+- ISO/IEC JTC 1/SC 32. [**ISO/IEC TR 19075-8:2019: Information technology database languages &mdash; SQL technical reports &mdash; Part 8: Multi-dimensional arrays (SQL/MDA)**](https://www.iso.org/standard/69777.html).
+
 #### 2018
 
-- Dimitar Misev. **On the Integration of Array and Relational Models in Databases**. *PhD Thesis*. Computer Science & Electrical Engineering, Jacobs University Bremen, Germany, May 2018.
-- Brennan Bell, Tilman Dinter, Vlad Merticariu, Bang Pham Huu, Dimitar Misev, Peter Baumann. **Navigating Sea-Ice Timeseries Data using Tracklines**. *eScience 2018*.
-- Peter Baumann, Dimitar Misev, Vlad Merticariu, Bang Pham Huu, Brennan Bell. **rasdaman: Spatio-temporal datacubes on steroids.** *SIGSPATIAL/GIS 2018*, 604-607.
-- Peter Baumann, Dimitar Misev, Vlad Merticariu, Bang Pham Huu, Brennan Bell. **Datacubes: A Technology Survey**. *IGARSS 2018*, 430-433.
+- Dimitar Misev. [**On the Integration of Array and Relational Models in Databases**](http://nbn-resolving.org/urn:nbn:de:gbv:579-opus-1008050). *PhD Thesis*. Computer Science & Electrical Engineering, Jacobs University Bremen, Germany, May 2018.
+- Brennan Bell, Tilman Dinter, Vlad Merticariu, Bang Pham Huu, Dimitar Misev, Peter Baumann. [**Navigating Sea-Ice Timeseries Data using Tracklines**](https://doi.org/10.1109/eScience.2018.00115). *eScience 2018*.
+- Peter Baumann, Dimitar Misev, Vlad Merticariu, Bang Pham Huu, Brennan Bell. [**rasdaman: Spatio-temporal datacubes on steroids.**](https://doi.org/10.1145/3274895.3274988) *SIGSPATIAL/GIS 2018*, 604-607.
+- Peter Baumann, Dimitar Misev, Vlad Merticariu, Bang Pham Huu, Brennan Bell. [**Datacubes: A Technology Survey**](https://www.doi.org/10.1109/IGARSS.2018.8518920). *IGARSS 2018*, 430-433.
 
 #### 2017
 
 - Peter Baumann, Eric Hirschorn, Joan Masó-Pau, Vlad Merticariu, Dimitar Misev. **All in One: Encoding spatio-temporal big data in XML, JSON, and RDF without information loss**. *BigData 2017*, 3406-3415.
+- Dimitar Misev, Peter Baumann. [**SQL Support for Multidimensional Arrays**](http://nbn-resolving.org/urn:nbn:de:gbv:579-opus-1007237). *Jacobs University Technical Reports (34)*, 2017.
 - Veranika Liaukevich, Dimitar Misev, Peter Baumann, Vlad Merticariu. **Location and Processing Aware Datacube Caching**. *SSDBM 2017*, 34:1-34:6.
 - P. Baumann, A.P. Rossi, B. Bell, O. Clements, B. Evans, H. Hoenig, P. Hogan, G.1 Kakaletris, P. Koltsida, S. Mantovani, R. Marco Figuera, V. Merticariu, D. Misev, B. Pham Huu, S. Siemen, J. Wagemann. **Fostering Cross-Disciplinary Earth Science Through Datacube Analytics**. *Earth Observation Open Science and Innovation - Changing the World One Pixel at a Time, International Space Science Institute (ISSI), 2017*.
 
