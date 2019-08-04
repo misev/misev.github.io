@@ -10,7 +10,7 @@ title: Publications
 
 #### 2018
 
-- Peter Baumann, Dimitar Misev. [**BigDataCube: Making Big Data a Commodity**](https://iafastro.directory/iac/archive/browse/IAC-18/B1/4/44924/). *IAC 2018*.
+- Dimitar Misev, Peter Baumann, Vlad Merticariu, Dimitris Bellos, Stefan Wiehle. [**BigDataCube: Making Big Data a Commodity**](https://iafastro.directory/iac/archive/browse/IAC-18/B1/4/44924/). *Proc. 69th International Astronautical Congress (IAC)*, Bremen, Germany, 1-5 October 2018.
 - Dimitar Misev. [**On the Integration of Array and Relational Models in Databases**](http://nbn-resolving.org/urn:nbn:de:gbv:579-opus-1008050). *PhD Thesis*. Computer Science & Electrical Engineering, Jacobs University Bremen, Germany, May 2018.
 - Brennan Bell, Tilman Dinter, Vlad Merticariu, Bang Pham Huu, Dimitar Misev, Peter Baumann. [**Navigating Sea-Ice Timeseries Data using Tracklines**](https://doi.org/10.1109/eScience.2018.00115). *eScience 2018*.
 - Peter Baumann, Dimitar Misev, Vlad Merticariu, Bang Pham Huu, Brennan Bell. [**rasdaman: Spatio-temporal datacubes on steroids.**](https://doi.org/10.1145/3274895.3274988) *SIGSPATIAL/GIS 2018*, 604-607.
