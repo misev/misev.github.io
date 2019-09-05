@@ -6,10 +6,10 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'About', path: 'menu', url: 'about.html'}
-- {name: 'Publications', path: 'menu', url: 'publications.html'}
-- {name: 'Photography', path: 'menu', url: 'photography.html'}
-- {name: 'Blog', path: 'menu', url: 'blog.html'}
+- {name: 'About', path: '.', url: 'about'}
+- {name: 'Publications', path: '.', url: 'publications'}
+- {name: 'Photography', path: '.', url: 'photography'}
+- {name: 'Blog', path: '.', url: 'blog'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
