@@ -91,6 +91,16 @@ span.cssbox_full {
   overflow-x: hidden;
 }
 
+/* show in full width horizontally */
+.full-width-image-gallery {
+  width: 100vw;
+  position: relative;
+  left: 43%;
+  /* -21px to account for the scrollbar */
+  margin-left: calc(-50vw - 21px);
+  overflow-x: hidden;
+}
+
 p img {
   margin-top: 1rem;
   margin-bottom: 0.5rem;

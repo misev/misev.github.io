@@ -1,0 +1,16 @@
+
+{%- assign imagessubdir = page.title | downcase %}
+{%- if page.slug %}
+{%-   assign imagessubdir = page.slug %}
+{%- endif %}
+{%- assign imagesdir = include.imagesdir | default: '/images/blog' %}
+{%- assign imagesdir = imagesdir | append: '/' | append: imagessubdir %}
+{%- if include.type == 'f' %}
+<div class="full-width-image">
+<img src="{{ imagesdir }}/{{ include.image }}">
+</div>
+{%- elsif include.type == 'c' %}
+<a href="{{ imagesdir }}/{{ include.image }}l.jpg">
+<img src="{{ imagesdir }}/{{ include.image }}s.jpg" class="center-image">
+</a>
+{%- endif %}

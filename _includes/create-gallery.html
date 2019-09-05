@@ -3,15 +3,27 @@
   {%- if include.images %}
   {%-   assign curroffset = curroffset | default: 0 %}
   {%-   for img in include.images %}
-  <div class="cssbox">
     {%-   assign imgindex = forloop.index | plus: curroffset %}
     {%-   assign imagessubdir = page.title | downcase %}
     {%-   if page.slug %}
     {%-     assign imagessubdir = page.slug %}
     {%-   endif %}
+    {%-   assign imagesdir = include.imagesdir | default: '/images/blog' %}
+    {%-   assign imagesdir = imagesdir | append: '/' | append: imagessubdir %}
+    {%-   assign smallimg = img | append: "s" %}
+    {%-   assign largeimg = img | append: "l" %}
+    {%-   assign tmpind = img | size | minus: 1 %}
+    {%-   assign lastchar = img | slice: tmpind, 1 %}
+    {%-   if lastchar == 'f' %}
+    {%-     assign smallimg = img %}
+    {%-     assign largeimg = img %}
+  <div class="cssbox full-width-image-gallery">
+    {%-   else %}
+  <div class="cssbox">
+    {%-   endif %}
     <a id="image{{ imgindex }}" href="#image{{ imgindex }}">
-      <img class="cssbox_thumb" src="{{include.imagesdir}}/{{ imagessubdir }}/{{ img }}s.jpg" />
-      <span class="cssbox_full"><img src="{{include.imagesdir}}/{{ imagessubdir }}/{{ img }}l.jpg" /></span>
+      <img class="cssbox_thumb" src="{{imagesdir}}/{{ smallimg }}.jpg" />
+      <span class="cssbox_full"><img src="{{imagesdir}}/{{ largeimg }}.jpg" /></span>
     </a>
     <a class="cssbox_close" href="#void"></a>
     {%-   if forloop.first == false %}
