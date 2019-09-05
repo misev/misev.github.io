@@ -1,26 +1,27 @@
-        <div class="photo-gallery">
-          {%- if include.images %}
-          {%-   assign curroffset = curroffset | default: 0 %}
-          {%-   for img in include.images %}
-          <div class="cssbox">
-            {%-   assign imgindex = forloop.index | plus: curroffset %}
-            {%-   assign imagessubdir = page.title | downcase %}
-            {%-   if page.slug %}
-            {%-     assign imagessubdir = page.slug %}
-            {%-   endif %}
-            <a id="image{{ imgindex }}" href="#image{{ imgindex }}">
-              <img class="cssbox_thumb" src="{{include.imagesdir}}/{{ imagessubdir }}/{{ img }}s.jpg" />
-              <span class="cssbox_full"><img src="{{include.imagesdir}}/{{ imagessubdir }}/{{ img }}l.jpg" /></span>
-            </a>
-            <a class="cssbox_close" href="#void"></a>
-            {%-   if forloop.first == false %}
-            <a class="cssbox_prev" href="#image{{ imgindex | minus: 1 }}">&#x25c4;</a>
-            {%-   endif %}
-            {%-   if forloop.last == false %}
-            <a class="cssbox_next" href="#image{{ imgindex | plus: 1 }}">&#x25ba;</a>
-            {%-   endif %}
-          </div>
-          {%-   endfor %}
-          {%-   assign curroffset = imgindex %}
-          {%- endif %}
-        </div>
+
+<div class="photo-gallery">
+  {%- if include.images %}
+  {%-   assign curroffset = curroffset | default: 0 %}
+  {%-   for img in include.images %}
+  <div class="cssbox">
+    {%-   assign imgindex = forloop.index | plus: curroffset %}
+    {%-   assign imagessubdir = page.title | downcase %}
+    {%-   if page.slug %}
+    {%-     assign imagessubdir = page.slug %}
+    {%-   endif %}
+    <a id="image{{ imgindex }}" href="#image{{ imgindex }}">
+      <img class="cssbox_thumb" src="{{include.imagesdir}}/{{ imagessubdir }}/{{ img }}s.jpg" />
+      <span class="cssbox_full"><img src="{{include.imagesdir}}/{{ imagessubdir }}/{{ img }}l.jpg" /></span>
+    </a>
+    <a class="cssbox_close" href="#void"></a>
+    {%-   if forloop.first == false %}
+    <a class="cssbox_prev" href="#image{{ imgindex | minus: 1 }}">&#x25c4;</a>
+    {%-   endif %}
+    {%-   if forloop.last == false %}
+    <a class="cssbox_next" href="#image{{ imgindex | plus: 1 }}">&#x25ba;</a>
+    {%-   endif %}
+  </div>
+  {%-   endfor %}
+  {%-   assign curroffset = imgindex %}
+  {%- endif %}
+</div>
