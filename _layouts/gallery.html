@@ -1,28 +1,50 @@
----
-layout: photo
----
-<div class="layout-full">
-  <div class="gallery-single">
+<!doctype html>
+<html>
+<head>
+  {% include head.html gallery=true %}
+</head>
+<body>
 
-    <header class="entry-header">
-      <h1 class="entry-title">{{ page.title }}</h1>
-    </header>
-
-    <div class="layout-full">
-      {%- include create-gallery.html images=page.images imgindex=0 imagesdir='/images/gallery' %}
-    </div>
-
-    <nav class="gallery-nav">
-      <div class="nav-previous">
-        <h4>PREVIOUS</h4>
-        <a href="/photography/{{ page.prev }}" rel="prev"><span class="meta-nav">←</span> {{ page.prev | upcase }}</a>
-      </div>
-      <div class="nav-next">
-        <h4>NEXT</h4>
-        <a href="/photography/{{ page.next }}" rel="next">{{ page.next | upcase }} <span class="meta-nav">→</span></a>
-      </div>
-    </nav>
-
+  <div class="container">
+    {% include header.html %}
   </div>
 
-</div>
+  <div id="page" class="hfeed site">
+  <div id="main" class="site-main">
+    <div id="primary" class="content-area">
+      <div id="content" class="site-content" role="main">
+        <div class="layout-full">
+          <div class="gallery-single">
+        
+            <header class="entry-header">
+              <h1 class="entry-title">{{ page.title }}</h1>
+            </header>
+        
+            <div class="layout-full">
+              {%- include create-gallery.html images=page.images imgindex=0 imagesdir='/images/gallery' %}
+            </div>
+        
+            <nav class="gallery-nav">
+              <div class="nav-previous">
+                <h4>PREVIOUS</h4>
+                <a href="/photography/{{ page.prev }}" rel="prev"><span class="meta-nav">←</span> {{ page.prev | upcase }}</a>
+              </div>
+              <div class="nav-next">
+                <h4>NEXT</h4>
+                <a href="/photography/{{ page.next }}" rel="next">{{ page.next | upcase }} <span class="meta-nav">→</span></a>
+              </div>
+            </nav>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container">
+    {% include footer.html %}
+  </div>
+
+</body>
+</html>

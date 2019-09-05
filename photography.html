@@ -1,8 +1,24 @@
 ---
-layout: photography
+layout: none
 title: Photography
 ---
-<div class="layout-full">
+<!doctype html>
+<html>
+<head>
+  {% include head.html gallery=true %}
+</head>
+<body>
+
+  <div class="container">
+    {% include header.html %}
+  </div>
+
+  <div id="page" class="hfeed site">
+  <div id="main" class="site-main">
+    <div id="primary" class="content-area">
+      <div id="content" class="site-content" role="main">
+
+        <div class="layout-full">
             <div class="gallery-grid">
               {%- assign items = "nature,people,landscape,street,animals,urban,abstract" | split: "," %}
               {%- for item in items %}
@@ -16,6 +32,17 @@ title: Photography
                 </figure>
               </div>
               {%- endfor %}
-
             </div>
           </div>
+  
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container">
+    {% include footer.html %}
+  </div>
+
+</body>
+</html>
