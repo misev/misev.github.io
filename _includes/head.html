@@ -23,9 +23,10 @@
       newid = '';
       switch (e.which || e.keyCode) {
         case 37: // left
-          if (idx == 1)
-            newid = document.querySelector('.cssbox:last-child > a').id;
-          else
+          if (idx == 1) {
+            var tmp = document.querySelectorAll('a[id^="image"]');
+            newid = tmp[tmp.length - 1].id;
+          } else
             newid = 'image' + (idx - 1);
           break;
         case 39: // right
