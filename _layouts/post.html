@@ -6,12 +6,6 @@ layout: default
 
 {{ content }}
 
-{%- if page.gallery %}
-<div class="photo-gallery">
-  {{ page.gallery }}
-</div>
-{%- endif %}
-
       <span class="post-date">
         {{ site.data.settings.post_date_prefix }}
         {%- assign d = page.date | date: "%-d" %}

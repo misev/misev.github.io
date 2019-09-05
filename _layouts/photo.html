@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/photo.css">
 
-  <script>
+  <script> 
   // handle left/right/escape keyboard keys to cycle through gallery images
   document.onkeydown = function(e) {
     e = e || window.event;
@@ -28,9 +28,12 @@
           break;
         case 27: // escape
           break;
-        default: return; // exit this handler for other keys
+        default:
+          return; // unknown key, nothing to do
       }
       window.location.hash = newid;
+    } else {
+      return; // no image is in focus, nothing to do in this handler
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
   };

@@ -9,25 +9,7 @@ layout: photo
     </header>
 
     <div class="layout-full">
-      <div class="photo-gallery">
-        {%- if page.images %}
-        {%-   for img in page.images %}
-        <div class="cssbox">
-          <a id="image{{ forloop.index }}" href="#image{{ forloop.index }}">
-            <img class="cssbox_thumb" src="/images/gallery/{{ page.title | downcase }}/{{ img }}s.jpg" />
-            <span class="cssbox_full"><img src="/images/gallery/{{ page.title | downcase }}/{{ img }}l.jpg" /></span>
-          </a>
-          <a class="cssbox_close" href="#"></a>
-          {%-   if forloop.first == false %}
-          <a class="cssbox_prev" href="#image{{ forloop.index | minus: 1 }}">&#x25c4;</a>
-          {%-   endif %}
-          {%-   if forloop.last == false %}
-          <a class="cssbox_next" href="#image{{ forloop.index | plus: 1 }}">&#x25ba;</a>
-          {%-   endif %}
-        </div>
-        {%-   endfor %}
-        {%- endif %}
-      </div>
+      {%- include create-gallery.html images=page.images imgindex=0 imagesdir='/images/gallery' %}
     </div>
 
     <nav class="gallery-nav">
