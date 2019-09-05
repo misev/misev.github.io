@@ -3,9 +3,13 @@
           {%-   for img in include.images %}
           <div class="cssbox">
             {%-   assign imgindex = forloop.index | plus: include.imgindex %}
+            {%-   assign imagessubdir = page.title | downcase %}
+            {%-   if page.slug %}
+            {%-     assign imagessubdir = page.slug %}
+            {%-   endif %}
             <a id="image{{ imgindex }}" href="#image{{ imgindex }}">
-              <img class="cssbox_thumb" src="{{include.imagesdir}}/{{ page.title | downcase }}/{{ img }}s.jpg" />
-              <span class="cssbox_full"><img src="{{include.imagesdir}}/{{ page.title | downcase }}/{{ img }}l.jpg" /></span>
+              <img class="cssbox_thumb" src="{{include.imagesdir}}/{{ imagessubdir }}/{{ img }}s.jpg" />
+              <span class="cssbox_full"><img src="{{include.imagesdir}}/{{ imagessubdir }}/{{ img }}l.jpg" /></span>
             </a>
             <a class="cssbox_close" href="#"></a>
             {%-   if forloop.first == false %}

@@ -11,7 +11,43 @@
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/main.css">
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/photo.css">
   <link rel="stylesheet" href="{{ site.github.url }}/assets/font/fontello.css">
-  <!-- <link rel="stylesheet" href="{{ site.github.url }}/assets/css/syntax.css"> -->
+
+  {%- if include.gallery %}
+  <script>
+  // handle left/right/escape keyboard keys to cycle through gallery images
+  document.onkeydown = function(e) {
+    e = e || window.event;
+    var currid = window.location.hash;
+    if (currid && currid.startsWith('#image')) {
+      idx = Number(currid.substr('#image'.length));
+      newid = '';
+      switch (e.which || e.keyCode) {
+        case 37: // left
+          if (idx == 1)
+            newid = document.querySelector('.cssbox:last-child > a').id;
+          else
+            newid = 'image' + (idx - 1);
+          break;
+        case 39: // right
+        case 32: // space
+          newid = 'image' + (idx + 1);
+          if (!document.getElementById(newid))
+            newid = 'image1';
+          break;
+        case 27: // escape
+          newid = 'void';
+          break;
+        default:
+          return; // unknown key, nothing to do
+      }
+      window.location.hash = newid;
+    } else {
+      return; // no image is in focus, nothing to do in this handler
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+  };
+  </script>    
+  {%- endif %}
 
   {% feed_meta %}
 
