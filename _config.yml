@@ -46,3 +46,9 @@ defaults:
       type: "pages"
     values:
       layout: "gallery"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

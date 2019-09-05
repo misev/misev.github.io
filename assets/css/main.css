@@ -321,6 +321,9 @@ th, td {
   Posts
 */
 
+.post-container > p:first-of-type:first-letter,
+.post-container h2 + p:first-letter,
+.post-container h2 + a + p:first-letter,
 .drop-cap:first-letter {
   font-size: 42px;
   line-height: 1.2;
