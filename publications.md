@@ -6,6 +6,7 @@ title: Publications
 
 - ISO/IEC JTC 1/SC 32. [**ISO/IEC 9075-15:2019: Information technology database languages &mdash; SQL &mdash; Part 15: Multi-dimensional arrays (SQL/MDA)**](https://www.iso.org/standard/67382.html).
 - ISO/IEC JTC 1/SC 32. [**ISO/IEC TR 19075-8:2019: Information technology database languages &mdash; SQL technical reports &mdash; Part 8: Multi-dimensional arrays (SQL/MDA)**](https://www.iso.org/standard/69777.html).
+- Dimitar Mišev, Peter Baumann. Despite Open Data: How to Secure Pixels Appropriately? IGARSS 2019.
 
 #### 2018
 
