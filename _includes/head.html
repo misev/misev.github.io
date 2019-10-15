@@ -1,8 +1,8 @@
 <title>
     {%- if page.title == "Home" %}
-    {{- site.title }} | {{- site.description }}
+    {{- site.title }} | {{ site.description }}
     {%- else %}
-    {{- page.title }} | {{- site.title }}
+    {{- page.title }} | {{ site.title }}
     {%- endif %}</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,7 +53,7 @@
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
   };
-  </script>    
+  </script>
   {%- endif %}
 
   {% feed_meta %}
