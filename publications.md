@@ -2,12 +2,25 @@
 title: Publications
 ---
 
+#### 2022
+
+- Dimitar Misev, Peter Baumann. [**Space Cubes: Satellite On-Board Processing of Datacube Queries**](https://www.ronpub.com/ojiot/OJIOT_2022v8i1n05_Misev.html). *Open Journal of Internet Of Things (OJIOT), 8(1), Pages 44-53, 2022*.
+
+#### 2021
+
+- Peter Baumann, Dimitar Misev, Vlad Merticariu, Bang Pham Huu. [**Array databases: concepts, standards, implementations**](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-020-00399-2). *Journal of Big Data 8, 28 (2021)*.
+
+#### 2020
+
+- Otoniel José Campos Escobar, Dimitar Misev, Peter Baumann. [**Making an Array Database Language Server-Side Extensible**](https://ieeexplore.ieee.org/document/9378108/). *IEEE BigData 2020*.
+
 #### 2019
 
 - ISO/IEC JTC 1/SC 32. [**ISO/IEC 9075-15:2019: Information technology database languages &mdash; SQL &mdash; Part 15: Multi-dimensional arrays (SQL/MDA)**](https://www.iso.org/standard/67382.html).
 - ISO/IEC JTC 1/SC 32. [**ISO/IEC TR 19075-8:2019: Information technology database languages &mdash; SQL technical reports &mdash; Part 8: Multi-dimensional arrays (SQL/MDA)**](https://www.iso.org/standard/69777.html).
-- Dimitar Mišev, Peter Baumann. Despite Open Data: How to Secure Pixels Appropriately? IGARSS 2019.
-- Dimitar Mišev, Peter Baumann, Dimitris Bellos, Stefan Wiehle. **BigDataCube: A Scalable, Federated Service Platform for Copernicus**. *4th IEEE International Workshop on Big Spatial Data 2019*.
+- Dimitar Misev, Peter Baumann. [**Access Control on Big Data and Small Pixels: How to Achieve Privacy and Security.**](https://ieeexplore.ieee.org/document/8898179) *IGARSS 2019*.
+- Dimitar Misev, Peter Baumann. [**Remote Sensing Analytics in Databases with ISO SQL/MDA**](https://ieeexplore.ieee.org/document/8898179). *IGARSS 2019*.
+- Dimitar Misev, Peter Baumann, Dimitris Bellos, Stefan Wiehle. **BigDataCube: A Scalable, Federated Service Platform for Copernicus**. *4th IEEE International Workshop on Big Spatial Data 2019*.
 
 #### 2018
 
