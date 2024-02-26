@@ -2,6 +2,13 @@
 title: Publications
 ---
 
+#### 2023
+
+- Dimitar Misev, Mikhail Rodionychev, Peter Baumann. [**Performance of Null Handling in Array Databases**](https://ieeexplore.ieee.org/document/10386100). *IEEE Big Data 2023: 247-254*.
+- Fabio Terribile et al. [**The LANDSUPPORT geospatial decision support system (S-DSS) vision: Operational tools to implement sustainability policies in land planning and management.**](https://doi.org/10.1002/ldr.4954) *Land Degradation & Development, 35(2), 813–834.*
+- Peter Baumann, Dimitar Misev. **AI and Datacubes: Towards a Happy Marriage** (poster). *ESA Big Data from Space (BiDS), 2023*.
+- Peter Baumann, Otoniel José Campos Escobar, Dimitar Misev. **AI-Enabled Analysis-Ready Datacubes: Towards a Roadmap for More Human-Centric Services**. *Proc. IEEE Geoscience and Remote Sensing Society (IGARSS), 2023*.
+
 #### 2022
 
 - Dimitar Misev, Peter Baumann. [**Space Cubes: Satellite On-Board Processing of Datacube Queries**](https://www.ronpub.com/ojiot/OJIOT_2022v8i1n05_Misev.html). *Open Journal of Internet Of Things (OJIOT), 8(1), Pages 44-53, 2022*.
