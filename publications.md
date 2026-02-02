@@ -2,6 +2,11 @@
 title: Publications
 ---
 
+#### 2024
+
+- Baumann, P., Pham Huu, B., Misev, D., & Merticariu, V. (2024). [**Enhanced calendar support for temporal datacube queries**](https://doi.org/10.1111/tgis.13215). Transactions in GIS, 28, 2089–2112.
+- Baumann, P., Merticariu, V., Misev, D., Pham Huu, B., & Langella, G. (2024). [**Datacubes as enabler for advanced decision support systems in land management**](https://doi.org/10.1002/ldr.5153). Land Degradation & Development, 35(11), 3579–3592.)
+
 #### 2023
 
 - Dimitar Misev, Mikhail Rodionychev, Peter Baumann. [**Performance of Null Handling in Array Databases**](https://ieeexplore.ieee.org/document/10386100). *IEEE Big Data 2023: 247-254*.
@@ -33,6 +38,7 @@ title: Publications
 
 - Dimitar Misev, Peter Baumann, Vlad Merticariu, Dimitris Bellos, Stefan Wiehle. [**BigDataCube: Making Big Data a Commodity**](https://iafastro.directory/iac/archive/browse/IAC-18/B1/4/44924/). *Proc. 69th International Astronautical Congress (IAC)*, Bremen, Germany, 1-5 October 2018.
 - Dimitar Misev. [**On the Integration of Array and Relational Models in Databases**](http://nbn-resolving.org/urn:nbn:de:gbv:579-opus-1008050). *PhD Thesis*. Computer Science & Electrical Engineering, Jacobs University Bremen, Germany, May 2018.
+- Baumann, P., Misev, D., Merticariu, V., Huu, B.P. (2019). [**Datacubes: Towards Space/Time Analysis-Ready Data**](https://doi.org/10.1007/978-3-319-72434-8_14). In: Döllner, J., Jobst, M., Schmitz, P. (eds) Service-Oriented Mapping. Lecture Notes in Geoinformation and Cartography.
 - Brennan Bell, Tilman Dinter, Vlad Merticariu, Bang Pham Huu, Dimitar Misev, Peter Baumann. [**Navigating Sea-Ice Timeseries Data using Tracklines**](https://doi.org/10.1109/eScience.2018.00115). *eScience 2018*.
 - Peter Baumann, Dimitar Misev, Vlad Merticariu, Bang Pham Huu, Brennan Bell. [**rasdaman: Spatio-temporal datacubes on steroids.**](https://doi.org/10.1145/3274895.3274988) *SIGSPATIAL/GIS 2018*, 604-607.
 - Peter Baumann, Dimitar Misev, Vlad Merticariu, Bang Pham Huu, Brennan Bell. [**Datacubes: A Technology Survey**](https://www.doi.org/10.1109/IGARSS.2018.8518920). *IGARSS 2018*, 430-433.
@@ -42,13 +48,13 @@ title: Publications
 - Peter Baumann, Eric Hirschorn, Joan Masó-Pau, Vlad Merticariu, Dimitar Misev. **All in One: Encoding spatio-temporal big data in XML, JSON, and RDF without information loss**. *BigData 2017*, 3406-3415.
 - Dimitar Misev, Peter Baumann. [**SQL Support for Multidimensional Arrays**](http://nbn-resolving.org/urn:nbn:de:gbv:579-opus-1007237). *Jacobs University Technical Reports (34)*, 2017.
 - Veranika Liaukevich, Dimitar Misev, Peter Baumann, Vlad Merticariu. **Location and Processing Aware Datacube Caching**. *SSDBM 2017*, 34:1-34:6.
-- P. Baumann, A.P. Rossi, B. Bell, O. Clements, B. Evans, H. Hoenig, P. Hogan, G.1 Kakaletris, P. Koltsida, S. Mantovani, R. Marco Figuera, V. Merticariu, D. Misev, B. Pham Huu, S. Siemen, J. Wagemann. **Fostering Cross-Disciplinary Earth Science Through Datacube Analytics**. *Earth Observation Open Science and Innovation - Changing the World One Pixel at a Time, International Space Science Institute (ISSI), 2017*.
+- P. Baumann, A.P. Rossi, B. Bell, O. Clements, B. Evans, H. Hoenig, P. Hogan, G.1 Kakaletris, P. Koltsida, S. Mantovani, R. Marco Figuera, V. Merticariu, D. Misev, B. Pham Huu, S. Siemen, J. Wagemann. [**Fostering Cross-Disciplinary Earth Science Through Datacube Analytics**](https://doi.org/10.1007/978-3-319-65633-5_5). *Earth Observation Open Science and Innovation - Changing the World One Pixel at a Time, International Space Science Institute (ISSI), 2017*.
 
 #### 2016
 
 - Peter Baumann et al. **Big Data Analytics for Earth Sciences: the EarthServer approach**. *Int. J. Digital Earth 9(1): 3-29 (2016)*.
 - Dimitar Misev, Peter Baumann. **The Open-Source rasdaman Array DBMS**. *VLDB Big Data Open Source Systems (BOSS) Workshop*, New Delhi, India, September 09, 2016.
-- Peter Baumann, Vlad Merticariu, Alex Dumitru, Dimitar Misev. **Standards-Based Services for Big Spatio-Temporal Data**. *Proc. XXIII ISPRS Congress, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLI-B4, 2016.*
+- Peter Baumann, Vlad Merticariu, Alex Dumitru, Dimitar Misev. [**Standards-Based Services for Big Spatio-Temporal Data**](https://doi.org/10.5194/isprs-archives-XLI-B4-691-2016). *Proc. XXIII ISPRS Congress, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLI-B4, 2016.*
 
 #### 2015
 
