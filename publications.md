@@ -2,10 +2,18 @@
 title: Publications
 ---
 
+#### 2026
+
+- D. Misev, B. Pham Huu, P. Baumann: **Empowering Non-Experts with AI on Big Earth Data**. Proceedings of the 9th International Conference on Geoinformatics and Data Analysis, ICGDA 2026, Lyon, France, April 13, 2026.
+- R. Vardiashvili, D. Misev, P. Baumann: **GSIP: a Model-Agnostic Framework for Scalable Geospatial Inference**. Intelligent Systems Conference (IntelliSys), September 3-4, 2026, Amsterdam, Netherlands.
+- P. Baumann, A. Garcia, D. Misev, B. Pham Huu, F. Ringelsiep, H. Hoenig: **Building Smallsats from Consumer Electronics for Federated Earth Observation**. IEEE Intl. Conf. on Edge Computing & Communications (EDGE), Sydney, Australia, July 2026.
+- P. Baumann, A. Ramadan, D. Misev: **A Sort Operator for Array Database Query Languages**. Intl. Workshop on Distributed Big Data Management (DBDM), July 2026, Madrid, Spain.
+- P. Baumann, D. Misev, B. Pham Huu: **Polygon/Datacube Clipping in Database Queries**. Intl. Conf. on Applied Computing: Bridging Theory, Innovation, and Real-World Impact (CAC), Las Vegas, USA, April 13-15, 2026.
+
 #### 2024
 
 - Baumann, P., Pham Huu, B., Misev, D., & Merticariu, V. (2024). [**Enhanced calendar support for temporal datacube queries**](https://doi.org/10.1111/tgis.13215). Transactions in GIS, 28, 2089–2112.
-- Baumann, P., Merticariu, V., Misev, D., Pham Huu, B., & Langella, G. (2024). [**Datacubes as enabler for advanced decision support systems in land management**](https://doi.org/10.1002/ldr.5153). Land Degradation & Development, 35(11), 3579–3592.)
+- Baumann, P., Merticariu, V., Misev, D., Pham Huu, B., & Langella, G. (2024). [**Datacubes as enabler for advanced decision support systems in land management**](https://doi.org/10.1002/ldr.5153). Land Degradation & Development, 35(11), 3579–3592.
 
 #### 2023
 
