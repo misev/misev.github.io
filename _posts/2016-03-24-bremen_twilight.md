@@ -10,7 +10,7 @@ excerpt: Most of the time Bremen, a major city in Northern Germany, is gray and 
   But then when the sky clears up and the sun does come out...
 ---
 
-{%- include render-image.html type='f' image='cover_l.jpg' %}
+{%- include render-image.html type='f' image='cover_l.avif' %}
 
 Most of the time Bremen, a major city in Northern Germany, is gray and flat.
 The [18% gray card](https://en.wikipedia.org/wiki/Gray_card) is 
