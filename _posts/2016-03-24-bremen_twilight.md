@@ -1,7 +1,8 @@
 ---
 title: Bremen at Twilight
 description: A couple of photos from the center of Bremen on a clear evening.
-image: "/images/blog/bremen_twilight/cover.jpg"
+image: "/images/blog/bremen_twilight/cover-og.avif"
+thumb: "/images/blog/bremen_twilight/cover-thumb.avif"
 category: "Urban Photography"
 tags: [bremen, germany, urban, sunset]
 excerpt: Most of the time Bremen, a major city in Northern Germany, is gray and flat.
