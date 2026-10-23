@@ -1,7 +1,8 @@
 ---
 title: Switzerland
 description: The Autumn colors of Switzerland.
-image: "/images/blog/switzerland/cover.jpg"
+image: "/images/blog/switzerland/cover-og.avif"
+thumb: "/images/blog/switzerland/cover-thumb.avif"
 category: "Travel Photography"
 tags: [switzerland, autumn, travel, landscape]
 gallery: true
@@ -12,7 +13,7 @@ excerpt: At the end of October we spent a few days in Southeast Switzerland with
   popped out in this weather, enjoy the photos :-)
 ---
 
-{%- include render-image.html type='f' image='cover_l.jpg' %}
+{%- include render-image.html type='f' image='cover_l.avif' %}
 
 At the end of October we spent a few days in Southeast Switzerland with
 <a href="https://500px.com/sanderpriivits" target="_blank">Sander</a>, mostly around
