@@ -10,6 +10,8 @@
 #   sort_field: 'date'
 #   sort_reverse: true
 
+url:                 'https://dimitarmisev.com'
+
 # jekyll-paginate configuration
 paginate:            5
 
@@ -23,7 +25,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Dimitar Mi&scaron;ev'
 description:	       'Personal homepage'
-author:                'Dimitar Mi&scaron;ev'
+author:              'Dimitar Mi&scaron;ev'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
@@ -40,7 +42,6 @@ defaults:
       layout: "post"
       permalink: "/blog/:slug"
       toc: false
-      image: ""
   -
     scope:
       path: "photography"
