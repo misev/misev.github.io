@@ -5,10 +5,9 @@ title: Publications
 #### 2026
 
 - P. Baumann, D. Misev, B. Pham Huu, V. Merticariu: [**The Rasdaman Array DBMS: Call Me Datacube!**](https://doi.org/10.3390/computers15100692) Computers 2026, 15, 692.
-- D. Misev, B. Pham Huu, P. Baumann: **Empowering Non-Experts with AI on Big Earth Data**. Proceedings of the 9th International Conference on Geoinformatics and Data Analysis, ICGDA 2026, Lyon, France, April 13, 2026.
-- R. Vardiashvili, D. Misev, P. Baumann: **GSIP: a Model-Agnostic Framework for Scalable Geospatial Inference**. Intelligent Systems Conference (IntelliSys), September 3-4, 2026, Amsterdam, Netherlands.
-- P. Baumann, A. Garcia, D. Misev, B. Pham Huu, F. Ringelsiep, H. Hoenig: **Building Smallsats from Consumer Electronics for Federated Earth Observation**. IEEE Intl. Conf. on Edge Computing & Communications (EDGE), Sydney, Australia, July 2026.
-- P. Baumann, A. Ramadan, D. Misev: **A Sort Operator for Array Database Query Languages**. Intl. Workshop on Distributed Big Data Management (DBDM), July 2026, Madrid, Spain.
+- D. Misev, B. Pham Huu, P. Baumann: [**Empowering Non-Experts with AI on Big Earth Data**](https://doi.org/10.1007/978-3-032-36445-6_5). Proceedings of the 9th International Conference on Geoinformatics and Data Analysis, ICGDA 2026, Lyon, France, April 13, 2026.
+- R. Vardiashvili, D. Misev, P. Baumann: [**GSIP: a Model-Agnostic Framework for Scalable Geospatial Inference**](https://doi.org/10.1007/978-3-032-32729-1_47). Intelligent Systems Conference (IntelliSys), September 3-4, 2026, Amsterdam, Netherlands.
+- P. Baumann, A. Garcia, D. Misev, B. Pham Huu, F. Ringelsiep, H. Hoenig: [**Building Smallsats from Consumer Electronics for Federated Earth Observation**](https://doi.org/10.1109/EDGE72783.2026.00024). IEEE Intl. Conf. on Edge Computing & Communications (EDGE), Sydney, Australia, July 2026.
 - P. Baumann, D. Misev, B. Pham Huu: **Polygon/Datacube Clipping in Database Queries**. Intl. Conf. on Applied Computing: Bridging Theory, Innovation, and Real-World Impact (CAC), Las Vegas, USA, April 13-15, 2026.
 
 #### 2024
