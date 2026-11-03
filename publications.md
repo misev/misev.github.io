@@ -4,6 +4,7 @@ title: Publications
 
 #### 2026
 
+- R. Vardiashvili, D. Misev, P. Baumann: [**Scaling inference with remote-sensing foundation models on large datacubes**](https://doi.org/10.1080/20964471.2026.2746169). Big Earth Data 2026, 1–47.
 - P. Baumann, D. Misev, B. Pham Huu, V. Merticariu: [**The Rasdaman Array DBMS: Call Me Datacube!**](https://doi.org/10.3390/computers15100692) Computers 2026, 15, 692.
 - D. Misev, B. Pham Huu, P. Baumann: [**Empowering Non-Experts with AI on Big Earth Data**](https://doi.org/10.1007/978-3-032-36445-6_5). Proceedings of the 9th International Conference on Geoinformatics and Data Analysis, ICGDA 2026, Lyon, France, April 13, 2026.
 - R. Vardiashvili, D. Misev, P. Baumann: [**GSIP: a Model-Agnostic Framework for Scalable Geospatial Inference**](https://doi.org/10.1007/978-3-032-32729-1_47). Intelligent Systems Conference (IntelliSys), September 3-4, 2026, Amsterdam, Netherlands.
